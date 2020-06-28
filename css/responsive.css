@@ -1,0 +1,230 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    header form a i {
+        margin-left: 20px;
+    }
+    .carousel-inner .carousel-item .carousel-caption {
+        top: 26%;
+    }
+    .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 26px !important;
+    }
+    .carousel-inner .carousel-item .carousel-caption p {
+
+    }
+    .carousel-inner .carousel-item .carousel-caption a {
+        padding: 10px;
+        font-size: 13px;
+        margin-top:10px;
+    }
+    .about-area,
+    .work-area,
+    .getintouch-area,
+    .widget {
+        padding: 30px 0;
+    }
+    .about-area .about h2,
+    .work-area .work-heading h2,
+    .getintouch-area h2 {
+        font-size:26px;
+    }
+    .about-area .about p,
+    .about-area .about-us p,
+    .work-area .work-heading p,
+    .getintouch-area p {
+        padding: 0px 30px;
+        font-size:14px;
+    }
+    .about-area .about-us p {
+        padding: 0px;
+    }
+    .about-area .about,
+    .work-area .work-heading,
+    .work-area .work-port {
+        margin-bottom: 20px;
+    }
+    .work-area .work-port {
+        margin-bottom: 30px;
+    }
+    .about-area .about-us h3 {
+        font-size: 20px;
+    }
+    .work-area .work-port .bottom h4 a {
+        font-size: 16px;
+    }
+    .widget .first a {
+        font-size: 13px;
+    }
+    .widget form input[type="email"] {
+        padding: 8px;
+        margin-bottom: 3px;
+    }
+    .widget form input[type="submit"] {
+        padding:8px;
+        position:inherit;
+        top:0;
+        right: 0;
+    }
+    .footer ul,
+    .footer p {
+        text-align: left;
+    }
+    
+ } 
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .top-header .top-left {
+        text-align: center;
+    }
+    .top-header .top-right {
+        text-align: center;
+    }
+    .top-header ul li {
+        margin-right:20px;
+        margin-left: 0;
+    }
+    header form a i {
+        margin-left: 20px;
+    }
+    .about-area,
+    .work-area,
+    .getintouch-area,
+    .widget {
+        padding: 30px 0;
+    }
+    .about-area .about h2,
+    .work-area .work-heading h2,
+    .getintouch-area h2 {
+        font-size:22px;
+    }
+    .about-area .about p,
+    .about-area .about-us p,
+    .work-area .work-heading p,
+    .getintouch-area p {
+        padding: 0px 30px;
+        font-size:14px;
+    }
+    .col-md-1 {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .col-md-3 {
+        padding: 0 20px;
+        text-align: center; 
+    }
+    .col-sm-6 {
+        margin-bottom: 15px;
+        text-align: left; 
+    }
+    .about-area .about,
+    .work-area .work-heading,
+    .work-area .work-port {
+        margin-bottom: 20px;
+    }
+    .work-area .work-port .bottom {
+        margin-bottom:10px;
+    }
+    .work-area .work-port .bottom h4 a {
+        font-size: 16px;
+    }
+    .widget .first a {
+        font-size: 13px;
+    }
+    .widget form input[type="email"] {
+        padding: 8px;
+        margin-bottom: 3px;
+    }
+    .widget form input[type="submit"] {
+        padding:8px;
+        position:inherit;
+        top:0;
+        right: 0;
+    }
+    .footer ul,
+    .footer p {
+        text-align: center;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .top-header .top-right {
+        text-align: left;
+    }
+    .top-header ul li {
+        margin-right:20px;
+        margin-left: 0;
+    }
+    header form a i {
+        margin-left: 20px;
+    }
+    .about-area,
+    .work-area,
+    .getintouch-area,
+    .widget {
+        padding: 30px 0;
+    }
+    .about-area .about h2,
+    .work-area .work-heading h2,
+    .getintouch-area h2 {
+        font-size:22px;
+    }
+    .about-area .about p,
+    .about-area .about-us p,
+    .work-area .work-heading p,
+    .getintouch-area p {
+        padding: 0px 30px;
+        font-size:14px;
+    }
+    .col-md-1 {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .col-md-3 {
+        padding: 0 20px;
+        text-align: center; 
+    }
+    .col-sm-6 {
+        margin-bottom: 15px;
+    }
+    .about-area .about,
+    .work-area .work-heading,
+    .work-area .work-port {
+        margin-bottom: 20px;
+    }
+    .about-area .about-us h3 {
+        font-size: 20px;
+    }
+    .work-area .work-port .bottom {
+        margin-bottom:10px;
+    }
+    .work-area .work-port .bottom h4 a {
+        font-size: 16px;
+    }
+    .widget .first a {
+        font-size: 13px;
+    }
+    .widget form input[type="email"] {
+        padding: 8px;
+    }
+    .widget form input[type="submit"] {
+        padding:8px;
+        position:inherit;
+        top:0;
+        right: 0;
+    }
+    .footer ul {
+        text-align: left;
+    }
+    
+  }
